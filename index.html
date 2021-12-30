@@ -15,21 +15,26 @@
             height: 150px;
             width: 40%;
             margin: auto;
+            border-radius: 5px;
         }
-        #name{
+        .name{
             width:90%;
-            margin:10px 0px 0px 7px;
-            padding: 2px;
+            margin:16px 0px 0px 7px;
+           padding: 2px;
            
             
         }
-        #name:hover{
+        #first{
+            margin-top:20px;
+        }
+        .name:hover{
             border-color:black;
         }
         #submit{
             width:15%;
             margin-left: 7px;
-           
+           margin-top: 16px;
+           background-image: linear-gradient(to right, red, yellow);
             
         }
 
@@ -46,8 +51,8 @@
 
 <body>
     <div class="section">
-        <input type="text" name="Name" id="name" placeholder="username"><br><br>
-        <input type="password" name="Name" id="name" placeholder="password"><br><br>
+        <input type="text" name="Name" class="name" id="first" placeholder="username"><br>
+        <input type="password" name="Name"   class="name" placeholder="password"><br>
         <input type="submit" name="Name" id="submit">
     </div>
     </div>
